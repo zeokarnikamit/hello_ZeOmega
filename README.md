@@ -1,2 +1,2 @@
-# hello_ZeOmega
-hello
+# Solutions for Exercises
+* Day 1 Excercise
