@@ -92,8 +92,4 @@ def list_keys_values_asc():
 
 
 def invert_dict(ipdict):
-    opdict = dict()
-    # op_dict = {value: key for key, value in ipdict.iteritems()} # python 2.6 does not support dict comprehensions
-    for key, value in ipdict.iteritems():
-        opdict[value] = key
-    return opdict
+    return {value: key for key, value in ipdict.iteritems()}
