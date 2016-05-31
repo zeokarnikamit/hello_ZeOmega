@@ -13,3 +13,15 @@
          List the keys in alphabetical order. List the values from lower to higher
     * 4. Take a dictionary as input and create another dictionary by inverting the keys and values.
          ie, the values becomes the key and the keys become the values.
+
+* Use Decorators with a framework.
+::
+
+    * 1. Greet
+
+        * Route:
+
+            http://localhost:5000/greet/_name_
+        * OP:
+
+            <div><p><b>__name__</b></p></div>
